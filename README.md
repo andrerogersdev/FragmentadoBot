@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-O _FragmentadoBot_ é um robô automatizado projetado para atualizar a foto de perfil do usuário no WhatsApp a cada 15 segundos ou mais. Ele funciona utilizando tecnologias de automação, como Selenium e PyAutoGUI.
+_FragmentadoBot_ é um robô automatizado projetado para atualizar a foto de perfil do usuário no WhatsApp a cada 15 segundos ou mais. Ele funciona utilizando tecnologias de automação como Selenium e PyAutoGUI.
 
 ![ImagemFragmentadoBot](https://github.com/andrerogersdev/FragmentadoBot/blob/main/assets/fragmentado_perfil.png)
 
@@ -11,7 +11,7 @@ O _FragmentadoBot_ é um robô automatizado projetado para atualizar a foto de p
 ## Back-End
 - Python
 - selenium
-- pytautogui
+- pyautogui
 
 # Como executar o projeto
 ## Back-End
@@ -31,11 +31,12 @@ Abra no Editor de códigos
 
   ### porque?
   - Essa funcionalidade permite que o selenium salve no seu computador na pasta \\WhatsPerfil os dados do navegador que será automatizado.
-  - Após realizar o 1° scan no QR code, o navegador guardará essa informação na pasta \\WhatsPerfil. E com isso, nas próximas vezes em que usar rodar a aplicação não será necessário passar pelo Qr Novamente.
+  - Após realizar o 1° scan no QR code, o navegador guardará essa informação na pasta \\WhatsPerfil. E com isso, nas próximas vezes em que rodar a aplicação não será necessário passar pelo QrCode Novamente.
   - #### Genial né
 ### Altere
 - pasta_fotos = "C:\\Users\\Allya\\OneDrive\\Documentos\\programacao\\Trocar_Foto_auto\\eu"
-  #### Copie e cole o caminho da Pasta que contenha as fotos que serão usadas em seu perfil.
+  
+  Substitua "_C:\\Users\\Allya\\OneDrive\\Documentos\\programacao\\Trocar_Foto_auto\\eu_" pelo caminho da Pasta que contenha as fotos que serão usadas em seu perfil.
 
 ## Notas do Autor
 
