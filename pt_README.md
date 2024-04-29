@@ -29,7 +29,7 @@ Abra no Editor de códigos
 - Edge_profile = 'user-data-dir=C:\\Users\\Allya\\AppData\\Local\\MicrosoftEdge\\User\\WhatsPerfil'
   #### Em \\Allya\\ troque para o nome de usuário da sua máquina.
 
-  ### porque?
+  ### por quê?
   - Essa funcionalidade permite que o selenium salve no seu computador na pasta \\WhatsPerfil os dados do navegador que será automatizado.
   - Após realizar o 1° scan no QR code, o navegador guardará essa informação na pasta \\WhatsPerfil. E com isso, nas próximas vezes em que rodar a aplicação não será necessário passar pelo QrCode Novamente.
   - #### Genial né
