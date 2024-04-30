@@ -6,6 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from selenium.webdriver.edge.service import Service as EdgeService
 
+# Cookies do navegador 
 Edge_profile = 'user-data-dir=C:\\Users\\Allya\\AppData\\Local\\MicrosoftEdge\\User\\WhatsPerfil'
 opt = webdriver.EdgeOptions()
 opt.add_argument(Edge_profile) 
@@ -15,7 +16,7 @@ opt.add_argument('--mute-audio')
 driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()),options=opt)
 
 driver.get('https://web.whatsapp.com')
-sleep(1)
+sleep(10)
 
 def clicar(tipo,valor,valordovalor):
     while True:
@@ -29,6 +30,7 @@ def clicar(tipo,valor,valordovalor):
             print("clicado com sucesso!")
             break
 while True:
+    #Caminho da Pasta das fotos que será colocado no perfil.
     pasta_fotos = "C:\\Users\\Allya\\OneDrive\\Documentos\\programacao\\Trocar_Foto_auto\\eu"
     arquivos = os.listdir(pasta_fotos)
     clicar("div","aria-label","foto do perfil")
@@ -38,10 +40,8 @@ while True:
         for arquivo in arquivos:
             sleep(2)
             clicar("img","class","_ao3e")
-            print("clicado na camera")
             sleep(1)
             clicar("div","aria-label","Carregar foto")
-            print("clicado em colocar foto")
             sleep(1)
             caminho_completo = os.path.join(pasta_fotos, arquivo)
             sleep(1)
@@ -55,8 +55,5 @@ while True:
             sleep(2)
             clicar("span","data-icon","checkmark-large")
             sleep(5)
-    
-        
-
-
-    
+            
+              
