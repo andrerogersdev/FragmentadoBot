@@ -17,6 +17,7 @@ _FragmentadoBot_ é um robô automatizado projetado para atualizar a foto de per
 ## Back-End
 Pré-requisitos: 
 - Python 3
+- Navegador Microsoft Edge
 - ### Instale as bibliotecas
 - selenium
 - pyautogui
