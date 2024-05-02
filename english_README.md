@@ -17,6 +17,7 @@ _FragmentadoBot_ is an automated robot designed to update a user's WhatsApp prof
 ## Back-End
 Prerequisites
 - Python 3
+- Microsoft Edge Browser
 - ### Install the libraries
 - selenium
 - pyautogui
